@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>desconto</title>
+</head>
+<body>
+    <div class="topo">
+
+        <h1>Valorant Brabo</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="idade.html">Verificar idade</a>
+        <a href="login.html">Login</a>
+        <a href="desconto.html">Desconto</a>
+        <a href="avaliacao.html">Avaliação</a>
+    </nav>
+
+    </div>
+
+    <main>
+        
+        <div class="card">
+            <h2>Desconto</h2>
+            <input type="number" id="valor" placeholder="Valor">
+
+            <select id="VIPZAO">
+                <option value="nao">Não VIP</option>
+                <option value="sim">VIP</option>
+            </select>
+
+            <select id="cupom">
+                <option value="nao">Sem cupom</option>
+                <option value="sim">Com cupom</option>
+            </select>
+
+            <button onclick="calculardesconto ()">Calcular</button>
+            <p id="ResultadoDesconto"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
